@@ -15,7 +15,7 @@ xs-attributes:
   - microarchitecture:
     - FuType: alu.add
     - throughput: 1.828571
-    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, ExuBlock, Alu, WbDataPath, Regfile, Rob]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, ExuBlock, Alu, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [IllegalInst, AddrMisalign_inst, PageFault_inst]
 

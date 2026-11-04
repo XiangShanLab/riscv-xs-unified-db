@@ -114,7 +114,7 @@ xs-attributes:
     - FuType: mou
     - latency: 44.273438
     - throughput: 0.022587
-    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, AtomicsUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, AtomicsUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [PageFault_amo, AddrMisalign_amo, PageFault_inst, AccessFault_amo, IllegalInst, AddrMisalign_inst]
 

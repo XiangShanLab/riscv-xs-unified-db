@@ -14,7 +14,7 @@ xs-attributes:
     - FuType: vfdiv.vfdiv
     - latency: 13.335938
     - throughput: 0.106934
-    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, ExuBlock, VFDivSqrt, WbDataPath, Regfile, Rob]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, ExuBlock, VFDivSqrt, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [FP, IllegalInst, AddrMisalign_inst, PageFault_inst]
 
