@@ -25,6 +25,7 @@ xs-attributes:
     - FuType: csr
     - latency: 9.273438
     - throughput: 0.107835
+    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, ExuBlock, CSR, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [IllegalCsr, IllegalInst, AddrMisalign_inst, PageFault_inst]
 

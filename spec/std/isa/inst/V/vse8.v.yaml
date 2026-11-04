@@ -15,6 +15,7 @@ xs-attributes:
     - VstuType: vse
     - latency: 8.543945
     - throughput: 0.270042
+    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VSSplitImp, VSMergeBufferImp, StoreUnit, LsqWrapper, DCache, Rob]
   - architecture:
     - exceptions: [AccessFault, AddrMisalign, PageFault_inst, IllegalInst, AddrMisalign_inst]
 

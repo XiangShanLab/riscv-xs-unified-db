@@ -15,6 +15,7 @@ xs-attributes:
     - VlduType: vle
     - latency: 23.013672
     - throughput: 0.376471
+    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VLSplitImp, VLMergeBufferImp, LoadUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [AccessFault, AddrMisalign, PageFault_inst, IllegalInst, AddrMisalign_inst]
 

@@ -16,6 +16,7 @@ xs-attributes:
     - FuType: ldu
     - latency: 5.032227
     - throughput: 0.910222
+    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, LoadUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
   - architecture:
     - exceptions: [PageFault_load, AccessFault_load, PageFault_inst, IllegalInst, AddrMisalign_load, AddrMisalign_inst]
 

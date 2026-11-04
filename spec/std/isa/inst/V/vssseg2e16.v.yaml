@@ -14,6 +14,7 @@ xs-attributes:
   - microarchitecture:
     - latency: 76.034180
     - throughput: 0.014645
+    - lifecycle_normal: [Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VSegmentUnit, StoreUnit, LsqWrapper, DCache, Rob]
   - architecture:
     - exceptions: [AccessFault, AddrMisalign, PageFault_inst, IllegalInst, AddrMisalign_inst]
 
