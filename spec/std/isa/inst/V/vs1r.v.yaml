@@ -16,6 +16,7 @@ xs-attributes:
     - latency: 23.013672
     - throughput: 0.276458
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VSSplitImp, VSMergeBufferImp, StoreUnit, LsqWrapper, DCache, Rob]
+    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 0, 1, 0, 0, 0, 0, "2~N", 1, 0, 1, 1, 1, 0, 2, "2~N"]
   - architecture:
     - exceptions: [AccessFault, AddrMisalign, PageFault_inst, IllegalInst, AddrMisalign_inst]
 
