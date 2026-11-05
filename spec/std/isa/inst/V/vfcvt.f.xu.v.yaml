@@ -14,8 +14,8 @@ xs-attributes:
     - FuType: vfcvt.vfcvt_fxuv
     - latency: 7.242188
     - throughput: 0.688172
-    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, ExuBlock, VCVT, WbDataPath, Regfile, Rob]
-    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 0, 1, 0, 0, 0, 0, "2~N", 1, 0, 1, 2, 0, 1, "2~N"]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VCVT, WbDataPath, Regfile, Rob]
+    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 2, 0, 1, "2~N"]
   - architecture:
     - exceptions: [FP, IllegalInst, AddrMisalign_inst, PageFault_inst]
 

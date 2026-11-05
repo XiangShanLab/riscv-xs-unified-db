@@ -14,8 +14,8 @@ xs-attributes:
   - microarchitecture:
     - latency: 74.534180
     - throughput: 0.012155
-    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VSegmentUnit, LoadUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
-    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 0, 1, 0, 0, 0, 0, "2~N", 1, 0, 1, 1, 0, 2, 0, 1, "2~N"]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VSegmentUnit, LoadUnit, DCache, WbDataPath, Regfile, Rob]
+    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 1, 1, 2, 0, 1, "2~N"]
   - architecture:
     - exceptions: [AccessFault, AddrMisalign, PageFault_inst, IllegalInst, AddrMisalign_inst]
 

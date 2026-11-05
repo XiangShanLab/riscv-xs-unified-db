@@ -14,8 +14,8 @@ xs-attributes:
     - FuType: vfma.vfmsac
     - latency: 8.273438
     - throughput: 0.603774
-    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, ExuBlock, VFMA, WbDataPath, Regfile, Rob]
-    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 0, 1, 0, 0, 0, 0, "2~N", 1, 0, 1, 3, 0, 1, "2~N"]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VFMA, WbDataPath, Regfile, Rob]
+    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 3, 0, 1, "2~N"]
   - architecture:
     - exceptions: [FP, IllegalInst, AddrMisalign_inst, PageFault_inst]
 

@@ -17,8 +17,8 @@ xs-attributes:
     - FuType: ldu
     - latency: 3.763672
     - throughput: 1.163636
-    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, RenameTableWrapper, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, LoadUnit, LsqWrapper, DCache, WbDataPath, Regfile, Rob]
-    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 0, 1, 0, 0, 0, 0, "2~N", 0, 1, 0, 1, 0, 2, 0, 1, "2~N"]
+    - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, LoadUnit, DCache, WbDataPath, Regfile, Rob]
+    - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 0, 1, 1, 1, 2, 0, 1, "2~N"]
   - architecture:
     - exceptions: [PageFault_load, PageFault_inst, IllegalInst, AddrMisalign_load, AddrMisalign_inst]
 
