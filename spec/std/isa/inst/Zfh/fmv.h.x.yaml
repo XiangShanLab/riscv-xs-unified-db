@@ -15,7 +15,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: i2v
-    - latency: 5.029297
+    - latency: 4
     - throughput: 0.795031
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, IntFPToVec, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 0, 1, 1, 0, 0, 1, "2~N"]

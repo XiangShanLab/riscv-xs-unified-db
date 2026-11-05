@@ -13,7 +13,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - VSETOpType: uvsetvcfg_xi
-    - latency: 5.265625
+    - latency: 5
     - throughput: 0.441379
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, VSetRiWi, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 0, 1, 1, 0, 0, 1, "2~N"]

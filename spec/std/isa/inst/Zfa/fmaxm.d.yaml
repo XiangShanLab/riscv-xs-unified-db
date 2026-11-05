@@ -10,6 +10,10 @@ long_name: Floating-Point Maximum-Number NaN Double-Precision
 description: |
   The `fmaxm.d` instruction writes larger of `fs1` and `fs2` to `fd`. It is defined like `fmax.d` instruction, except
   that if either input is NaN, the result is the canonical NaN.
+xs-attributes:
+  - microarchitecture:
+    - latency: 2
+
 definedBy:
   extension:
     allOf:

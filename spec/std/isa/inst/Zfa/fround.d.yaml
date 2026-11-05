@@ -14,6 +14,10 @@ description: |
   and infinite inputs are copied to `fd` unmodified. Signaling NaN inputs cause the invalid operation
   exception flag to be set; no other exception flags are set. `fround.d` is encoded like `fcvt.d.s`, but with
   `xs2` set to 4.
+xs-attributes:
+  - microarchitecture:
+    - latency: 3
+
 definedBy:
   extension:
     allOf:

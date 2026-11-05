@@ -9,6 +9,10 @@ name: fmaxm.s
 long_name: No synopsis available
 description: |
   No description available.
+xs-attributes:
+  - microarchitecture:
+    - latency: 2
+
 definedBy:
   extension:
     name: Zfa

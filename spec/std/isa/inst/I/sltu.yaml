@@ -13,7 +13,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: alu.sltu
-    - latency: 1.032227
+    - latency: 1
     - throughput: 2.645995
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, Alu, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 0, 1, 1, 0, 0, 1, "2~N"]

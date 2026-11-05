@@ -9,6 +9,10 @@ name: fleq.h
 long_name: No synopsis available
 description: |
   No description available.
+xs-attributes:
+  - microarchitecture:
+    - latency: 5
+
 definedBy:
   extension:
     allOf:

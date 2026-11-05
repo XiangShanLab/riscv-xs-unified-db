@@ -9,6 +9,10 @@ name: froundnx.s
 long_name: Floating-point Round Single-precision to Integer with Inexact
 description: |
   No description available.
+xs-attributes:
+  - microarchitecture:
+    - latency: 3
+
 definedBy:
   extension:
     name: Zfa

@@ -11,6 +11,10 @@ description: |
   Subtract the 32-bit values in xs2 from xd, and store the result in xd.
   The xd and xs2 register indexes should be used as xd+8 and xs2+8 (registers x8-x15).
   C.SUBW expands into `subw xd, xd, xs2`.
+xs-attributes:
+  - microarchitecture:
+    - latency: 1
+
 definedBy:
   allOf:
     - xlen: 64

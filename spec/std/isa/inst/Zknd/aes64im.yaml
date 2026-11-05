@@ -7,6 +7,10 @@ $schema: "inst_schema.json#"
 kind: instruction
 name: aes64im
 long_name: AES Decrypt KeySchedule MixColumns
+xs-attributes:
+  - microarchitecture:
+    - latency: 3
+
 definedBy:
   allOf:
     - xlen: 64
