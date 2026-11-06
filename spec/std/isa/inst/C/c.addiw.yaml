@@ -12,6 +12,10 @@ description: |
   C.ADDIW expands into `addiw xd, xd, imm`.
   The immediate can be zero for C.ADDIW, where this corresponds to `sext.w xd`.
   C.ADDIW is only valid when xd &ne; x0; the code points with xd=x0 are reserved.
+xs-attributes:
+  - microarchitecture:
+    - latency: 1
+
 definedBy:
   allOf:
     - xlen: 64

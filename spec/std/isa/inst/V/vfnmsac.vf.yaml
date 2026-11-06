@@ -12,7 +12,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: vfma.vfnmsac
-    - latency: 8.273438
+    - latency: 8
     - throughput: 0.603774
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VFMA, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 3, "0~N", 1, "2~N"]

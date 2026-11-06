@@ -12,7 +12,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: vfalu.vfsgnj
-    - latency: 6.273438
+    - latency: 6
     - throughput: 0.761905
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VFAlu, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 1, "0~N", 1, "2~N"]

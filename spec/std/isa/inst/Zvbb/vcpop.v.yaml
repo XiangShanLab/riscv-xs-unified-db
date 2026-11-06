@@ -12,7 +12,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: vialuF.vcpop_v
-    - latency: 6.242188
+    - latency: 6
     - throughput: 0.780488
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, Regfile, BypassNetwork, VIAluFix, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 1, 1, 1, "0~N", 1, "2~N"]

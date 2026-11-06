@@ -9,6 +9,10 @@ name: clmulr
 long_name: Carry-less multiply (reversed)
 description: |
   `clmulr` produces bits 2*XLEN-2:XLEN-1 of the 2*XLEN carry-less product
+xs-attributes:
+  - microarchitecture:
+    - latency: 3
+
 definedBy:
   extension:
     name: Zbc

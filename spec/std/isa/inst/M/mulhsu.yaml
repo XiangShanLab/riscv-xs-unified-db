@@ -22,7 +22,7 @@ description: |
 xs-attributes:
   - microarchitecture:
     - FuType: mul
-    - latency: 3.032227
+    - latency: 3
     - throughput: 1.872029
     - lifecycle_normal: [Bpu, Ftq, ICache, NewIFU, IBuffer, DecodeStage, Rename, MEFreeList, NewDispatch, BusyTable, Scheduler, IssueQueue, RegCache, Regfile, BypassNetwork, MulUnit, WbDataPath, Regfile, Rob]
     - lifecycle_normal_latency: [1, 1, "2~N", 1, "0~N", 1, 1, 0, 0, 0, 0, "2~N", 0, 1, 1, 2, "0~N", 1, "2~N"]
